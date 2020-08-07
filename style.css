@@ -1,0 +1,478 @@
+/* Selector for the body tag */
+body {
+  z-index: 2;
+}
+
+/* Selector for main Header which contains my navigation links  */
+.main-topics-header {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  width: 100%;
+  height: 178px;
+  align-items: center;
+  background-color: #757575;
+  color: white;
+}
+
+/* Selector for logo container inside header */
+.logo-container {
+  float: left;
+  margin-left: 56px;
+}
+
+/* Selector for main-navbar */
+.main-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Selector for the container inside the navbar */
+.navbar-elements-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Selector for  all links */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* Selector for the search option inside main navbar */
+.search-container {
+  float: right;
+  margin-right: 42px;
+}
+
+/* Selector for the grid at the top of the main section */
+.top-grid {
+  display: grid;
+  grid-template: 782px 637px / repeat(2, 1fr);
+  width: 100%;
+  background-color: #9e9e9e;
+  position: relative;
+}
+
+/* Selector for articles inside the top-grid */
+.top-grid-article {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+
+/* Selector for the h1 element at the first section at the main section */
+.top-h1 {
+  width: 100%;
+  position: absolute;
+  top: 48px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Selector for the span inside the h1 element at the first section at the main section */
+.top-h1 span {
+  color: white;
+  background-color: #212121;
+  padding: 6px;
+}
+
+/* Selector for the span which "floats" to the top right of the main section */
+.top-right-span {
+  position: absolute;
+  top: 35px;
+  right: 40px;
+  color: white;
+  background-color: #424242;
+  padding: 32px;
+}
+
+/* Selector for the headers of the article */
+.article-header {
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: #616161;
+}
+
+/* Selector for second grid which contains my articles */
+.second-grid {
+  background-color: #9e9e9e;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 630px;
+  height: 630px;
+  width: 100%;
+}
+
+/* Selector for articles inside second section */
+.second-grid-article {
+  border: 1px solid white;
+}
+
+/* Selector for the div which contains text, inside second grid */
+.second-grid-text {
+  margin-top: 75px;
+  background-color: #757575;
+  position: relative;
+  top: 50px;
+  color: white;
+}
+
+/* Margin for my second grid  */
+.second-grid-header {
+  margin-top: 100px;
+}
+
+/* Selector for the third grid */
+.third-grid {
+  width: 100%;
+  height: 708px;
+  display: grid;
+  grid-template: 1fr / repeat(3, 1fr);
+  background: #9e9e9e;
+}
+
+/* Selector for the right figure container */
+.right-figure {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background: #212121;
+  border-radius: 12px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+/* Selector for the right figure header container */
+.right-figure-header-container {
+  width: 60%;
+  height: 395px;
+  background: #424242;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Selector for the button inside the third grid's right figure */
+.article-button {
+  background-color: #616161;
+  position: absolute;
+  bottom: 94px;
+  padding: 32px;
+  color: white;
+  border-radius: 12px;
+}
+
+/* Selector for the container which contains "see all latest articles" anchor tag */
+.latest-articles-container {
+  padding: 112px 0;
+  background-color: #9e9e9e;
+  display: flex;
+  justify-content: center;
+}
+
+/* Selector for the anchor tag "see all lastest articles" */
+.latest-articles-container a {
+  padding: 5px;
+  background-color: #757575;
+  border-bottom: 4px solid white;
+  line-height: 1.4;
+}
+
+/* Selector for the news section. */
+.news-section {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding-top: 1px;
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  background-color: #212121;
+}
+
+/* Selector for the header inside news section */
+.news-header {
+  margin-top: 130px;
+  background-color: #424242;
+}
+
+/* Selector for the container which contains the text at the news section */
+.news-container {
+  margin-top: 45px;
+  max-width: 756px;
+}
+
+/* Selector for the button at the news section */
+.news-button {
+  color: white;
+  font-size: 26px;
+  margin-top: 57px;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  background-color: #616161;
+}
+
+/* Selector for the container of the image at the news section */
+.image-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Selector for the gray square used as an image in the news section */
+.image-div {
+  width: 80%;
+  height: 539px;
+  background-color: #757575;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Selector for the person of the week article */
+.person-of-the-week {
+  width: 100%;
+  height: 500px;
+  background-color: #9e9e9e;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template: 1fr / repeat(4, 1fr);
+  margin-right: 32px;
+}
+
+/* Selector for the person of the week picture */
+.person-of-the-week-pic {
+  grid-column: 1 / span 1;
+  background: #424242;
+  width: 253px;
+  height: 255px;
+  border-radius: 12px;
+  transform: rotate(75deg);
+}
+
+/* Selector for the person of the week text */
+.person-of-the-week-text {
+  grid-column: 2 / span 3;
+  color: white;
+  left: 50px;
+  background-color: #616161;
+}
+
+/* Selector for the grid of articles at the bottom */
+.bottom-articles-grid {
+  display: grid;
+  width: 100%;
+  height: 1290px;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  background: #9e9e9e;
+}
+
+/* Selector for the articles at the bottom of the page */
+.small-bottom-article {
+  position: relative;
+  color: white;
+}
+
+/* Selector for the pictures at the articles at the bottom of the page */
+.small-bottom-article-pic {
+  width: 73px;
+  height: 73px;
+  background-color: #616161;
+  transform: rotate(75deg);
+  border-radius: 12px;
+  position: relative;
+  top: 16px;
+  left: 16px;
+}
+
+/* Selector for the text container at the article section at the bottom of the page */
+.small-bottom-article-text-container {
+  float: right;
+  max-width: 470px;
+  position: relative;
+  bottom: 50px;
+  right: 40px;
+}
+
+/* Selector for the headers of the articles at the bottom section of the page */
+.small-bottom-article-header {
+  background-color: #757575;
+  display: inline;
+}
+
+/* Selector for hidden elements */
+.hidden {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: transparent;
+}
+
+/* Selector for more links on Twitter notice */
+.twitter-notice {
+  margin-top: -220px;
+}
+
+/* Selector for the table of contents section */
+.table-of-contents {
+  color: white;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 422px;
+  background-color: #212121;
+}
+
+/* Selector for the table of contents container */
+.table-container {
+  padding-left: 73px;
+  padding-top: 72px;
+  max-width: 742px;
+}
+
+/* Selector for the header design systems */
+div.table-container h1 {
+  margin-bottom: 44px;
+  background-color: #9e9e9e;
+}
+
+/* Selector for the text inside table-container */
+div.table-container p {
+  background-color: #616161;
+}
+
+/* Selector for the button inside table of contents container */
+.table-of-contents-button {
+  color: white;
+  background-color: #424242;
+  margin-top: 40px;
+  font-size: 26px;
+  padding: 32px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* Selector for the div representing the image inside systems book */
+.table-of-contents-image {
+  position: absolute;
+  top: -80px;
+  right: 90px;
+  width: 250px;
+  height: 370px;
+  background-color: #757575;
+  transform: rotate(-20deg);
+}
+
+/* Selector for the list of elements at the guides section */
+.list-container {
+  position: relative;
+  top: -62px;
+  text-decoration: underline;
+  width: 33%;
+  margin-left: 30px;
+}
+
+/* Selector for the list individual elements at the guides section */
+.list-element {
+  margin-bottom: 22px;
+  font-size: 18px;
+}
+
+/* Selector for the seventh grid */
+.seventh-grid {
+  height: 1083px;
+  background-color: #9e9e9e;
+}
+
+/* Selector for the newsletter article at the bottom of the page */
+.newsletter-article {
+  height: 940px;
+  color: white;
+  display: block;
+}
+
+/* Selector for the h2 in the newsletter article at the bottom of the page */
+.newsletter-article h2 {
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 162px;
+}
+
+/* Selector for the span inside the h2 in the newsletter article at the bottom of the page */
+.newsletter-article h2 span {
+  background-color: #424242;
+  padding: 32px;
+}
+
+/* Selector for the newsletter image at the bottom of the page */
+.newsletter-image {
+  margin: 0 auto;
+  background-color: #616161;
+}
+
+/* Selector for the container of the newsletter button at the bottom of the page */
+.newsletter-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Selector for the newsletter button at the bottom of the page */
+.newsletter-button {
+  width: 70%;
+  height: 60px;
+  background-color: #757575;
+}
+
+/* Selector for main footer */
+footer {
+  position: relative;
+  height: 692px;
+  width: 100%;
+  background: #212121;
+}
+
+/* Footer container for the text */
+.footer-top-text {
+  margin: 0 auto;
+  position: relative;
+  top: 90px;
+  width: 80%;
+  height: 311px;
+  background-color: #616161;
+}
+
+/* Container for the 2 images inside footer */
+.footer-images-container {
+  position: relative;
+  top: 140px;
+  width: 100%;
+  height: 229px;
+  background: #212121;
+}
+
+/* Selector for the left image inside footer */
+.footer-image-1 {
+  margin-left: 157px;
+  display: inline-block;
+  width: 283px;
+  height: 194px;
+  background-color: #424242;
+}
+
+/* Selector for the right image inside footer */
+.footer-image-2 {
+  margin-right: 157px;
+  float: right;
+  width: 283px;
+  height: 194px;
+  background-color: #424242;
+}
